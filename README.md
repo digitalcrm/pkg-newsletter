@@ -1,4 +1,9 @@
 # pkg-newsletter
+```Package Uses:
+Install package
+Create Controller, view, and rotues for this
+Run
+```
 This package provides an easy way to integrate MailChimp with Laravel "5.8.*".
 
 ```php
