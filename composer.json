@@ -1,0 +1,32 @@
+{
+    "name": "digitalcrm/newsletter",
+    "description": "Newsletter package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "digitalcrm",
+            "email": "info@digitalcrm.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "~5.8.0|^6.0",
+        "drewm/mailchimp-api": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Digitalcrm\\Newsletter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Digitalcrm\\Newsletter\\NewsletterServiceProvider"
+            ],
+            "aliases": {
+                "Newsletter": "Digitalcrm\\Newsletter\\NewsletterFacade"
+            }
+        }
+    }
+}
