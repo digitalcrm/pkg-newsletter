@@ -3,9 +3,8 @@
 namespace Digitalcrm\Newsletter\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use Digitalcrm\Newsletter\NewsletterFacade as Newsletter;
 use Illuminate\Http\Request;
-
+use Newsletter;
 class NewsController extends Controller
 {
     /**
