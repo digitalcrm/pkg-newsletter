@@ -42,7 +42,7 @@ return [
     ],
 
     /*
-     * If you're having trouble with https connections, set this to false.
+     * If you're having trouble with https connections, set this to 'ssl' =>false.
      */
     'ssl' => true,
 
