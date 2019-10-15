@@ -37,7 +37,7 @@
                         </div>
                         @endif
 
-                        <form action="{{ route('news') }}" method="POST">
+                        <form action="#" method="POST">
                             @csrf
                             <div class="form-group">
                                 <label for="email">Email</label>
