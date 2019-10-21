@@ -11,7 +11,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "illuminate/support": "~5.8.0|^6.0",
+        "php": "^7.2",
+        "illuminate/support": "^6.2",
         "drewm/mailchimp-api": "^2.4"
     },
     "autoload": {
